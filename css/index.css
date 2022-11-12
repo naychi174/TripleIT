@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../fonts/Roboto/Roboto-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Black;
+    src: url('../fonts/Roboto/Roboto-Black.ttf'); 
+  }
+  
+  /*------------------------------------------------------------------
+  [ 2 ]*/
+  @font-face {
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  }
+  
+  
+  
+.color{
+    background-color: linear-gradient(134deg,#4299E1,#9F7AEA);
+}
+nav ul li.home1:hover .homebox{
+     display:block;
+     
+   
+ }
+nav ul li.news:hover .newsbox{
+    display:block;
+   
+}
+nav ul li.entertainment:hover .entertainmentbox{
+    display:block;
+}
+nav ul li.brand:hover .brandbox{
+    display:block;
+}
+nav ul li.popular:hover .popularbox{
+    display:block;
+}
+nav ul li.latest:hover .latestbox{
+    display:block;
+}
+.content{
+    background-color: rgba(225, 225, 225, 0.5);
+}
+.image-hov:hover{
+    cursor: pointer;
+    opacity: 0.85;
+
+}
+.b-g-color{
+    border-left-color: green;
+}
+.b-c-color{
+    border-left-color: crimson;
+}
+.b-y-color{
+    border-left-color: yellow;
+}
+.btn-back-to-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  bottom: -40px;
+  right: 40px;
+  background-color: #17b978;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.symbol-btn-back-to-top {
+  font-size: 18px;
+  color: white;
+  line-height: 1em;
+}
+
+.btn-back-to-top:hover {
+  opacity: 1;
+}
+
+@media (max-width: 575px) {
+  .btn-back-to-top {
+    bottom: 0px;
+    right: 15px;
+  }
+}
+
+.show-btn-back-to-top {bottom: 0;}
+
+/* Start Popular Courses Area
+=========================================================================================== */
+.popular-course-area .container-fluid {
+    padding-left: 21%;
+    padding-right: 0; }
+    @media (min-width: 1921px) {
+      .popular-course-area .container-fluid {
+        max-width: 1140px;
+        padding-left: 15px; } }
+    @media (max-width: 1665px) {
+      .popular-course-area .container-fluid {
+        max-width: 1140px;
+        padding-left: 15px; } }
+    @media (max-width: 1199px) {
+      .popular-course-area .container-fluid {
+        max-width: 960px; } }
+    @media (max-width: 991px) {
+      .popular-course-area .container-fluid {
+        padding-right: 15px; } }
+    @media (max-width: 768px) {
+      .popular-course-area .container-fluid {
+        max-width: 720px; } }
+  .popular-course-area .section-title {
+    margin-right: 0; }
+  .popular-course-area .owl-stage {
+    padding-left: 0 !important; }
+  .popular-course-area .owl-controls {
+    position: absolute;
+    top: -95px;
+    right: 27%; }
+    @media (max-width: 991px) {
+      .popular-course-area .owl-controls {
+        display: none; } }
+ 
+  .single-popular-course .name {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500; }
+  .single-popular-course .value {
+    color: #222222;
+    font-weight: 700; }
+   img:hover {
+      cursor: pointer;
+      }
+
+
